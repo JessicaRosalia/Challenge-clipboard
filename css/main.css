@@ -26,13 +26,9 @@ p{
 }
 
 .content{
-    width: 90%;
-    margin: 100px auto;
-}
-
-.content{
-    margin-bottom:25vh;
+    margin:90px auto 25vh auto;
     text-align:center;
+    width: 90%;
 }
 
 header .logo{
@@ -77,6 +73,14 @@ header .content a.mac{
 }
 .keep-track .content .track-items p{
     margin-bottom: 50px;
+}
+
+.remote-acess .content{
+    margin-bottom:20px;
+}
+.remote-acess .content img{
+    margin-top: 70px;
+    max-width: 345px;
 }
 footer li a{
     color:hsl(210, 10%, 33%);
