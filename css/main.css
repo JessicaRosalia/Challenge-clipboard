@@ -11,27 +11,30 @@ body{
 }
 h1{
     color:hsl(210, 10%, 33%);
-    font-size:34px;
+    font-size:33px;
 }
-h2,h4{
+h2,h3{
     color:hsl(210, 10%, 33%);
-    font-size: 31px;
 }
+
 a{
     text-decoration: none;
+}
+p{
+    line-height: 28px;
+    margin-top:15px;
 }
 
 .content{
     width: 90%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .content{
+    margin-bottom:25vh;
     text-align:center;
 }
-header{
-    margin-bottom:25vh;
-}
+
 header .logo{
     background: url('../images/bg-header-mobile.png') center center;
     display:flex;
@@ -46,9 +49,7 @@ header .logo img{
 header .content h1{
     margin: 50px 0 20px;
 }
-header .content p{
-    line-height: 28px;
-}
+
 header .content a.ios{
     background-color: hsl(171, 66%, 44%);
     border-radius: 40px;
@@ -68,6 +69,14 @@ header .content a.mac{
     display: block;
     font-weight: 600;
     padding: 20px 50px;
+}
+
+.keep-track .content img{
+    margin: 70px 0 50px 0;
+    max-width: 335px;
+}
+.keep-track .content .track-items p{
+    margin-bottom: 50px;
 }
 footer li a{
     color:hsl(210, 10%, 33%);
