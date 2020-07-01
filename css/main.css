@@ -9,13 +9,67 @@ body{
     font-size: 18px;
     font-family: 'Bai Jamjuree', sans-serif;
 }
-h1,h2,h4{
+h1{
     color:hsl(210, 10%, 33%);
+    font-size:34px;
+}
+h2,h4{
+    color:hsl(210, 10%, 33%);
+    font-size: 31px;
 }
 a{
     text-decoration: none;
 }
-footer li{
+
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content{
+    text-align:center;
+}
+header{
+    margin-bottom:25vh;
+}
+header .logo{
+    background: url('../images/bg-header-mobile.png') center center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header .logo img{
+    margin-top: 20vh;
+}
+
+header .content h1{
+    margin: 50px 0 20px;
+}
+header .content p{
+    line-height: 28px;
+}
+header .content a.ios{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 40px;
+    box-shadow: 0 3px 1px hsl(171, 46%, 43%);
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    padding: 20px 50px;
+    margin: 40px 0 25px 0;
+}
+
+header .content a.mac{
+    background-color:hsl(233, 100%, 69%);
+    border-radius: 40px;
+    box-shadow: 0 3px 1px hsl(233, 72%, 60%);
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    padding: 20px 50px;
+}
+footer li a{
     color:hsl(210, 10%, 33%);
 }
 .attribution {
