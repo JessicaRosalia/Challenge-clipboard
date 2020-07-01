@@ -82,6 +82,18 @@ header .content a.mac{
     margin-top: 70px;
     max-width: 345px;
 }
+
+.productivity-tools .content .tools-items{
+    margin-top:90px;
+}
+.productivity-tools .content p{
+    margin-bottom:70px;
+}
+
+.productivity-tools .content img{
+    margin-bottom:40px;
+}
+
 footer li a{
     color:hsl(210, 10%, 33%);
 }
