@@ -1,3 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+body{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h1,h2,h4{
+    color:hsl(210, 10%, 33%);
+}
+a{
+    text-decoration: none;
+}
+footer li{
+    color:hsl(210, 10%, 33%);
+}
 .attribution {
     font-size: 11px; text-align: center;
 }
