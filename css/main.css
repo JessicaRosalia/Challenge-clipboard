@@ -83,17 +83,39 @@ header .content a.mac{
     max-width: 345px;
 }
 
+.productivity-tools .content{
+    margin-bottom:20vh;
+}
+
 .productivity-tools .content .tools-items{
     margin-top:90px;
 }
 .productivity-tools .content p{
     margin-bottom:70px;
 }
+.productivity-tools .content p.last{
+    margin-bottom:0px;
+}
 
 .productivity-tools .content img{
     margin-bottom:40px;
 }
 
+.partners .content{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:15vh;
+}
+.partners .content img{
+    width: 130px;
+    margin-bottom:60px;
+}
+/*
+.download-clipboard .content{
+    margin-bottom:15vh !important;
+}
+*/
 footer li a{
     color:hsl(210, 10%, 33%);
 }
