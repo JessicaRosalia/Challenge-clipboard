@@ -111,17 +111,31 @@ a.mac{
     width: 130px;
     margin-bottom:60px;
 }
-/*
-.download-clipboard .content{
-    margin-bottom:15vh !important;
+footer{
+    background:hsl(195, 17%, 95%);
 }
-*/
-footer li a{
+footer .content{
+    margin-bottom:0;
+    padding: 60px 0 20px 0;
+}
+footer .content img{
+    width: 60px;
+}
+footer .content ul{
+    list-style: none;
+}
+footer .content li a{
     color:hsl(210, 10%, 33%);
+    display: block;
+    margin:25px 0;
 }
-.attribution {
+footer .social-networks img{
+    margin:20px;
+    width: 25px;
+}
+footer .content .attribution {
     font-size: 11px; text-align: center;
 }
-.attribution a {
+footer .content .attribution a {
     color: hsl(228, 45%, 44%);
 }
