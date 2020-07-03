@@ -55,6 +55,7 @@ a.ios{
     font-weight: 600;
     padding: 20px 50px;
     margin: 40px 0 25px 0;
+    width: 335px; 
 }
 
 a.mac{
@@ -65,6 +66,7 @@ a.mac{
     display: block;
     font-weight: 600;
     padding: 20px 50px;
+    width: 335px; 
 }
 
 .keep-track .content img{
@@ -76,21 +78,22 @@ a.mac{
 }
 
 .remote-acess .content{
-    margin-bottom:20px;
+    margin-bottom:30px;
 }
 .remote-acess .content img{
-    margin-top: 70px;
+    margin-top: 50px;
     max-width: 345px;
 }
 
 .productivity-tools .content{
     margin-bottom:20vh;
+    margin-top:110px;
 }
 
 .productivity-tools .content .tools-items{
-    margin-top:90px;
+    margin-top:60px;
 }
-.productivity-tools .content p{
+.productivity-tools .content  .tools-items .item{
     margin-bottom:70px;
 }
 .productivity-tools .content p.last{
