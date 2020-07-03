@@ -32,18 +32,22 @@ p{
 }
 
 header .logo{
-    background: url('../images/bg-header-mobile.png') center center;
-    display:flex;
+    background: url('../images/bg-header-mobile.png') no-repeat center center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
 }
 header .logo img{
-    margin-top: 20vh;
+    margin: 10vh 0 9vh 0;
+    width:8em;
 }
-
+header .content{
+    margin-top:15px;
+}
 header .content h1{
-    margin: 50px 0 20px;
+    margin-bottom: 20px;
 }
 
 a.ios{
