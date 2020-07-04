@@ -73,6 +73,16 @@ a.mac{
     width: 335px; 
 }
 
+a.ios:hover,a.ios:active{
+    color: #fff;
+    background-color: hsl(171, 48%, 52%);
+}
+
+a.mac:hover,a.mac:active{
+    color: #fff;
+    background-color:hsl(233, 67%, 68%);
+}
+
 .keep-track .content img{
     margin: 70px 0 50px 0;
     max-width: 335px;
@@ -128,21 +138,28 @@ footer .content{
 footer .content img{
     width: 60px;
 }
-footer .content ul{
-    list-style: none;
+footer nav a:hover, footer nav a:active{
+    color: hsl(171, 66%, 44%);
 }
-footer .content li a{
+
+footer .content a{
     color:hsl(210, 10%, 33%);
     display: block;
     margin:25px 0;
+}
+footer .social-networks{
+    display: flex;
 }
 footer .social-networks img{
     margin:20px;
     width: 25px;
 }
+
 footer .content .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px; 
+    text-align: center;
 }
 footer .content .attribution a {
     color: hsl(228, 45%, 44%);
+    display: inline;
 }
