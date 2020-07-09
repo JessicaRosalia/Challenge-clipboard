@@ -1,5 +1,5 @@
-<h1 align="center">Fylo</h1>
-<p align="center">Mirror clipboard landing site, a challenge of frontend mentor</p> <br>
+<h1 align="center">Clipboard</h1>
+<p align="center">Mirror Clipboard landing site, a challenge of frontend mentor</p> <br>
 
 <p align="center">
     <img aling="center" src="https://github.com/jessicarf18/Clipboard-landing/blob/master/desktop-preview.jpg?raw=true" alt="Fylo desktop design" width="700"/>
@@ -14,4 +14,4 @@
 - JS(for HTML5 shiv use only)
 
 **Go to the website:**
-[Fylo landing page](https://github.com/CarlosLevir/Tindev "Fylo")
+[Clipboard - landing page](https://jessicarf18.github.io/clipboard/ "Clipboard")
