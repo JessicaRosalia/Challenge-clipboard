@@ -17,4 +17,4 @@
 [Clipboard - landing page](https://jessicarf18.github.io/clipboard/ "Clipboard")
 
 <br>
-<p align="center"> Challenge by <a href="https://www.frontendmentor.io/challenges">Frontend Mentor</a>. Coded by <i>Rosália Fernandes</i> . </p>
+<p align="center"> Challenge by <a href="https://www.frontendmentor.io/challenges" target="_blank">Frontend Mentor</a>. Coded by <i>Rosália Fernandes</i> . </p>
